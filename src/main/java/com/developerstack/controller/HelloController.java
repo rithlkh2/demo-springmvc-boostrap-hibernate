@@ -10,4 +10,8 @@ public class HelloController {
     	return "index";
 	}
 
+    @RequestMapping(value = "/admin")
+    public String indexAdmin(){
+        return "/admin/admin";
+    }
 }
